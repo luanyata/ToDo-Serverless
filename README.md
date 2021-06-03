@@ -19,11 +19,11 @@ As rotas que deverão existir são:
 
     ```json
     {
-    	id: 'uuid', // id gerado para garantir um único todo com o mesmo id
-    	user_id: 'uuid' // id do usuário recebido no pathParameters
-    	title: 'Nome da tarefa',
-    	done: false, // inicie sempre como false
-    	deadline: new Date(deadline)
+    	"id": "uuid", // id gerado para garantir um único todo com o mesmo id
+    	"user_id": "uuid", // id do usuário recebido no pathParameters
+    	"title": "Nome da tarefa",
+    	"done": false, // inicie sempre como false
+    	"deadline": "new Date(deadline)"
     }
     ```
 
